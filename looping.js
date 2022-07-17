@@ -1,6 +1,12 @@
 // SOAL NOMOR 1
 
+// var number = 10
 
+// for (var i = 0; i <= number; i++) {
+//     if (number % i == 0) {
+//         console.log(i)
+//     }
+// }
 
 //SOAL NOMOR 2
 
@@ -22,13 +28,12 @@
 
 //SOAL NOMOR 3
 
-// var nomor = 5
+var nomor = 5
+var string = ""
 
-
-// for (var i = 0; i < nomor; i++) {
-//     var string = ""
-//     for (var j = 0; i < nomor; j++) {
-//         string += "*"
-//     }
-//     console.log(string)
-// }
+for (var i = 0; i < nomor; i++) {
+    for (var j = 0; i < nomor; j++) {
+        string += "*"
+    }
+    console.log(string)
+}
