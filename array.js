@@ -150,18 +150,20 @@ var kamus = "abcdefghijklmnopqrstuvwxyz";
 
 let fruits = ["cherry","blueberry","avocado","apple","cranberry"];
 
-console.log(fruits[0][0]);
+// console.log(fruits[0][0]);
 
 for (var i = 0; i < fruits.length; i++) {
-    for (var j = 0; j < fruits[i].length -1; j++) {
+    for (var j = 0; j < fruits[i].length - 1; j++) {
         if (kamus[j] == fruits[i][j]) {
             koleksia.push(fruits[i]);
         }
-       
     }
-    koleksi.push(koleksia);
+    koleksi.push(koleksia);   
 }
-console.log(koleksia);
+
+koleksia = [];
+console.log(koleksi);
+
 
 //soal nomor 3
 
