@@ -150,14 +150,16 @@ var kamus = "abcdefghijklmnopqrstuvwxyz";
 
 let fruits = ["cherry","blueberry","avocado","apple","cranberry"];
 
-for (var i = 0; i < kamus.length; i++) {
-    for (var j = 0; j < fruits.length; j++) {
-        if (kamus[i].length == fruits[i].length) {
-            koleksi.push(fruits[i]);
+console.log(fruits[0][0]);
+
+for (var i = 0; i < fruits.length; i++) {
+    for (var j = 0; j < fruits[i].length -1; j++) {
+        if (kamus[j] == fruits[i][j]) {
+            koleksia.push(fruits[i]);
         }
-        koleksi.push(koleksia);
+       
     }
-    
+    koleksi.push(koleksia);
 }
 console.log(koleksia);
 
