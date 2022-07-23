@@ -1,12 +1,15 @@
 // SOAL NOMOR 1
 
-// var number = 10
+var number = 10
+var string = "";
 
-// for (var i = 0; i <= number; i++) {
-//     if (number % i == 0) {
-//         console.log(i)
-//     }
-// }
+for (var i = 0; i <= number; i++) {
+    if (number % i == 0) {
+        string += i + ", ";
+    }
+}
+
+console.log(string);
 
 //SOAL NOMOR 2
 

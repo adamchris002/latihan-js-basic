@@ -17,5 +17,5 @@ console.log(greeting)
 var name = "admin";
 var status = true;
 
-var number = Math.floor(Math.random() * 10)
+var number = Math.floor((Math.random() * 9) + 1)
 console.log(name + number + status)
