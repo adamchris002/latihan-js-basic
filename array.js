@@ -120,7 +120,7 @@ var murid = [
 // for (var i = 0; i < watches.length - 1; i++) {
 //     string += watches[i] + ", ";
 // }
-// string += "dan " + watches[2];
+// string += "dan " + watches[watches.length - 1];
 
 // console.log(string + ".");
 
@@ -135,34 +135,34 @@ var murid = [
 //     string1 += arloji[i] + ", ";
 // }
 
-// string1 += "dan " + arloji[4];
+// string1 += "dan " + arloji[arloji.length - 1];
 
 // console.log(string1 + ".");
 
 
 //soal nomor 2
 
-var koleksi = [];
+// var koleksi = [];
 
-var koleksia= [];
+// var koleksia = [];
 
-var kamus = "abcdefghijklmnopqrstuvwxyz";
+// var kamus = "abcdefghijklmnopqrstuvwxyz";
 
-let fruits = ["cherry","blueberry","avocado","apple","cranberry"];
+// let fruits = ["cherry","blueberry","avocado","apple","cranberry"];
 
-// console.log(fruits[0][0]);
+// // console.log(fruits[0][0]);
 
-for (var i = 0; i < fruits.length; i++) {
-    for (var j = 0; j < fruits[i].length - 1; j++) {
-        if (kamus[j] == fruits[i][j]) {
-            koleksia.push(fruits[i]);
-        }
-    }
-    koleksi.push(koleksia);   
-}
+// for (var i = 0; i < fruits.length; i++) {
+//     for (var j = 0; j < fruits[i].length - 1; j++) {
+//         if (kamus[j] == fruits[i][j]) {
+//             koleksia.push(fruits[i]);
+//         }
+//     }
+// }
 
-koleksia = [];
-console.log(koleksi);
+// koleksi.push(koleksia);
+// koleksia = [];
+// console.log(koleksi);
 
 
 //soal nomor 3
