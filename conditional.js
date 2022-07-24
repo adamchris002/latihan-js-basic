@@ -76,3 +76,4 @@ switch (minuman) {
     else {
         console.log("Coupon yang Anda pilih tidak ada")
     }
+    
