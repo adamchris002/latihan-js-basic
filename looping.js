@@ -47,4 +47,3 @@ for (var i = 0; i < nomor; i++) {
 }
 
 console.log(string)
-
