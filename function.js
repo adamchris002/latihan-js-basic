@@ -69,7 +69,21 @@ function splitToArray (string) {
 
 function findTheLargest (string) {
     var newlist = splitToArray(string);
+
+    var newarr = [];
+
+    for (var i = 0; i < newlist.length; i++) {
+        newarr.push(newlist[i].toString());
+    }
     
+    console.log(newarr);
+    
+    // var newarr = [];
+    // var newstring = "";
+
+    // for (var i = 0; i < newlist.length; i++) {
+        
+    // }
 }
 
 findTheLargest(input);
