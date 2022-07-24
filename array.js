@@ -39,18 +39,23 @@
 
 // // console.log(fruits[0][0]);
 
-// for (var i = 0; i < fruits.length; i++) {
-//     for (var j = 0; j < fruits[i].length - 1; j++) {
-//         if (kamus[j] == fruits[i][j]) {
-//             koleksia.push(fruits[i]);
+// for (var i = 0; i < kamus.length; i++) {
+//     for (var j = 0; j < fruits.length; j++) {
+//         if (kamus[i] == fruits[j][0]) {
+//             koleksia.push(fruits[j]);
+            
 //         }
 //     }
+//     if (koleksia.length == 0) {
+//         continue;
+//     }
+//     else {
+//         koleksi.push(koleksia); 
+//     }
+    
+//     koleksia = []; 
 // }
-
-// koleksi.push(koleksia);
-// koleksia = [];
 // console.log(koleksi);
-
 
 //soal nomor 3
 
