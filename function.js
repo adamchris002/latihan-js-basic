@@ -54,4 +54,22 @@
 
 //soal nomor 3
 
-let input = "5279312"
+let input = "5279312";
+
+function splitToArray (string) {
+    var list = [];
+    var sentence = "";
+    for (var i = 0; i < string.length; i++) {
+        sentence += string[i];
+        list.push(Number(sentence));
+        sentence = "";
+    }
+    return list;
+}
+
+function findTheLargest (string) {
+    var newlist = splitToArray(string);
+    
+}
+
+findTheLargest(input);
