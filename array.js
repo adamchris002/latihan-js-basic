@@ -81,5 +81,3 @@ for (var i = 0; i <= kalimat.length; i++) {
 
 
 console.log(hasil);
-
-
