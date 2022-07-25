@@ -54,36 +54,42 @@
 
 //soal nomor 3
 
-let input = "5279312";
+// let input = "5279312";
 
-function splitToArray (string) {
-    var list = [];
-    var sentence = "";
-    for (var i = 0; i < string.length; i++) {
-        sentence += string[i];
-        list.push(Number(sentence));
-        sentence = "";
-    }
-    return list;
-}
+// function splitToArray (string) {
+//     var list = [];
+//     var sentence = "";
+//     for (var i = 0; i < string.length; i++) {
+//         sentence += string[i];
+//         list.push(sentence);
+//         sentence = "";
+//     }
+//     return list;
+// }
 
-function findTheLargest (string) {
-    var newlist = splitToArray(string);
+// function findTheLargest (string) {
+//     var newlist = splitToArray(string);
 
-    var newarr = [];
+//     var newarr = [];
 
-    for (var i = 0; i < newlist.length; i++) {
-        newarr.push(newlist[i].toString());
-    }
+//     for (var i = 0; i < newlist.length - 1; i++) {
+//         newarr.push(Number(newlist[i] + newlist[i + 1]));
+//     }
+
+//     var temp = 0;
     
-    console.log(newarr);
-    
-    // var newarr = [];
-    // var newstring = "";
-
-    // for (var i = 0; i < newlist.length; i++) {
+//     for (var i = 0; i < newarr.length; i++) {
+//         if (newarr[i] < newarr[i + 1]) {
+//             temp = 0;
+//             temp += newarr[i + 1];
+//         }
+//         else {
+//             continue;
+//         }
         
-    // }
-}
+//     }
 
-findTheLargest(input);
+//     return temp;
+// }
+
+// console.log(findTheLargest(input));
