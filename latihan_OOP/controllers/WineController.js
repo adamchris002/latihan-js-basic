@@ -12,7 +12,8 @@ class WineController {
     }
 
     static add(params) {
-
+        let wine = Wine.add(params);
+        View.show(wine);
     }
 
     static sell(params) {
