@@ -11,6 +11,10 @@ class View {
     static show(msg) {
         console.log(msg);
     }
+    
+    static message(msg) {
+        console.log(msg);
+    }
 }
 
 

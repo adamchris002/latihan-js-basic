@@ -1,5 +1,5 @@
-const Wine = require("../models/Wine");
-const View = require("../views/View");
+const Wine = require('../models/Wine');
+const View = require('../views/View');
 
 class WineController {
     static help() {
@@ -7,24 +7,31 @@ class WineController {
     }
 
     static wine() {
-        let wine = Wine.getWine();
-        View.show(wine);
+        let wines = Wine.wine();
+        View.show(wines);
     }
 
     static add(params) {
-        let wine = Wine.add(params);
-        View.show(wine);
+        let anggur = Wine.add(params);
+        View.show(anggur);
     }
 
     static sell(params) {
-
+        let anggur = Wine.sell(params);
+        View.show(anggur);
     }
 
     static rename(params) {
-
+        let anggur = Wine.rename(params);
+        View.show(anggur);
     }
 
     static findById(params) {
+        let anggur = Wine.findByid(params);
+        View.show(anggur);
+    }
+
+    static message(msg) {
 
     }
 }
