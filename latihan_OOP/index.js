@@ -20,6 +20,9 @@ switch (command) {
         break;
     case 'findByid' :
         WineController.findById(params);
+        break;
+    case 'group' : 
+        WineController.group(params);
     default:
         WineController.message("Unknown Command");
 }

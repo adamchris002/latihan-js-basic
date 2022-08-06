@@ -31,6 +31,10 @@ class WineController {
         View.show(anggur);
     }
 
+    static group (params) {
+        let anggur = Wine.group(params);
+        View.show(anggur);
+    }
     static message(msg) {
 
     }

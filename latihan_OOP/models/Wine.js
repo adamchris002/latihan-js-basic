@@ -39,10 +39,10 @@ class Wine {
         let type = myArray[2];
 
         if (type === 'R' || 'r') {
-            type = "Red Wine";
+            type = "Red";
         }
         else if (type === 'W' || 'w') {
-            type = "White Wine";
+            type = "White";
         }
         else {
             return `There is no type of ${type} wine!`
@@ -83,10 +83,10 @@ class Wine {
         let newType = obj[2];
 
         if (newType === "R" || "r") {
-            newType = "Red Wine";
+            newType = "Red";
         }
         else if (newType === "W" || "w") {
-            newType = "White Wine";
+            newType = "White";
         }
         else {
             `${newType} type not found`;
@@ -127,7 +127,11 @@ class Wine {
     }
 
     static group (params) {
+        let wine = this.getWine();
+        let wineType = params[0];
 
+        wine = wine.filter(element => element.type === wineType);
+        return wine;
     }
     
 }
