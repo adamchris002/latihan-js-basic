@@ -68,9 +68,9 @@ class Wine {
                 wineName += element.name;
             }
         })
-        console.log(`"${wineName}" has been sold!`);
         wine = wine.filter(element => element.id !== id);
         this.save(wine);
+        return `"${wineName}" has been sold!`;
     }
     
     static rename(params) {
@@ -103,7 +103,6 @@ class Wine {
             return element;
         })
         this.save(wine);
-        console.log(newYear);
         return `Wine number ${index} has been renamed!`;
     }
 
@@ -123,7 +122,7 @@ class Wine {
             }
             return temp;
         })
-        console.log(temp);
+        return temp;
     }
 
     static group (params) {
